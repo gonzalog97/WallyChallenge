@@ -1,0 +1,46 @@
+{
+  "login":{
+
+      "urlBase":"https://uat.miwally.com/",
+      "username": "yegab13846@sopulit.com",
+      "password": "QAauto123!",
+
+      "cookieBtn":"//*[@id='CybotCookiebotDialogBodyLevelButtonLevelOptinAllowallSelection']",
+      "usernameInput": "//*[@id='input-16']",
+      "passwordInput":"//*[@id='input-20']",
+      "loginBtn":  "//*[@id='app']/div/div[2]/div[1]/div[1]/div/div/div/button/span",
+
+      "menuShowBtn": "//*[@id='app']/div/div[3]/header/div/div[1]/div[2]"
+
+  },
+
+
+
+  "product":{
+      
+      "monedaBox":  "//*[@id='app']/div[1]/main/div/div/div/div[2]/form/div[1]/div/div[2]/div/div/div/div[5]/div/div[2]/div[1]/button",
+      "validaMoneda":   "//*[@id='app']/div[1]/main/div/div/div/div[2]/form/div[1]/div/div[2]/div/div/div/div[6]/div/div[2]/div[1]/div/div",
+      "precioUpBtn": "//*[@id='app']/div[1]/main/div/div/div/div[2]/form/div[1]/div/div[2]/div/div/div/div[6]/div/div[2]/div[3]/div/div[1]/i",
+      "tipoUnidadBox":  "//*[@id='app']/div[1]/main/div/div/div/div[2]/form/div[1]/div/div[2]/div/div/div/div[7]/div/div[1]/div",
+      "impuestosBox": "//*[@id='app']/div[1]/main/div/div/div/div[2]/form/div[1]/div/div[2]/div/div/div/div[8]/div/div[2]/div[1]/button",
+
+      "atributoImput": "//*[@id='app']/div[1]/main/div/div/div/div[2]/form/div[6]/div/div[2]/div/div/div[2]/div[1]/div[1]/input",
+      "valorImput": "//*[@id='app']/div[1]/main/div/div/div/div[2]/form/div[6]/div/div[2]/div/div/div[2]/div[2]/div[1]/div/div/div[1]/div",
+
+      "nameImput": "//*[@id='app']/div[1]/main/div/div/div/div[2]/form/div[1]/div/div[2]/div/div/div/div[1]/div/div[2]/input",
+      "varianteCheck": "//*[@id='app']/div[8]/div/div/div[2]/form/div[2]/div[3]/div/div/div/div[1]/div/div/div[1]/div/div",
+      "varianteBtn": "#app > div.v-dialog__content.v-dialog__content--active > div > div > div.v-card__actions.pa-4 > div:nth-child(3) > button",
+
+      "imgSelect": "#app > div.v-application--wrap > main > div > div > div > div.px-4.px-sm-6 > form > div:nth-child(7) > div > div.pb-0.pt-6.py-md-0.col-md-9.col-12 > div > div > div.pb-4.px-6.v-card.v-card--flat.v-sheet.theme--light > div > div > div.dropzone > div > div > div.mx-auto.my-3 > button",
+      "imgBtn": "#app > div.v-dialog__content.v-dialog__content--active > div > div > div.v-card__actions.pa-4 > div:nth-child(3) > button",
+      "unspscBtn": "//*[@id='app']/div[9]/div/div/div[3]/div[3]/button",
+      "unspscBtn2": "//*[@id='app']/div[5]/div/div/div[3]/div[3]/button"
+
+  },
+  
+  "serchBar": "#app > div.v-application--wrap > main > div > div > div > div > div:nth-child(2) > div.mx-auto.my-6.custom-card > div.custom-card > div.px-4.py-3 > div.body-2.mr-4 > div.input-group > input"
+
+
+
+
+}
